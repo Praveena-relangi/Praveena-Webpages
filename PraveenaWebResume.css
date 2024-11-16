@@ -1,0 +1,92 @@
+body{
+    background-color : #fff;
+    margin : 0;
+    padding : 20px;
+  }
+  .resume {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #dbf8ff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+  }
+  h1{
+    color : #02627a;
+    text-align : center;
+    font-family : Verdana;
+  }
+  .section {
+      border-bottom: 1px solid #ddd;
+  }
+  .contact-details {
+              display: flex;
+              justify-content: space-between;
+              background-color: #dbf8ff;
+              color: black;
+              padding: 10px;
+              margin-top: 10px;
+              border-radius: 8px;
+              font-size: 14px;
+              font-family: verdana;
+          }
+  
+          .contact-details div {
+              width: 45%; 
+              }
+  
+          .contact-details h4 {
+              text-align: center;
+              margin-bottom: 1px;
+          }
+  
+          .contact-list {
+              list-style-type: none;
+              padding: 0 85px;
+              text-align: left;
+          }
+  
+          .contact-list li {
+              margin: 10px 0;
+          }
+  
+          .icon a {
+              color: Black;
+              font-size: 14px; 
+              text-decoration: none;
+              text-align: center;
+          }
+  
+          .icon a:hover {
+              text-decoration: none;
+              opacity: 0.8; 
+          }
+  
+          .contact-details div ul {
+              margin-left: 1px;
+          }
+  
+  
+  .section-header{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    background-color : #12a2fc;
+    color : #121212;
+    padding : 15px;
+    cursor : pointer;
+    font-family : Verdana;
+  }
+  .section-header:hover{
+    background-color : #02b2f7;
+    color : #fff;
+  }
+  .section-content{
+    display : none;
+    padding : 15px;
+    font-size : 16px;
+    background-color : #86dbf0;
+    font-family : Verdana;
+  }
+  
